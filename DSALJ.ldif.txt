@@ -1,0 +1,164 @@
+##################### Grupos #####################
+
+dn: ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: organizationalUnit
+ou: Matriz
+
+dn: ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: organizationalUnit
+ou: CE1
+
+dn: ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: organizationalUnit
+ou: RJ2
+
+dn: ou=GO3,dc=br,dc=dsalj,dc=com
+objectClass: organizationalUnit
+ou: GO3
+
+
+##################### MATRIZ #####################
+
+
+dn: cn=Diretor_Financeiro,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+
+dn: cn=Diretor_Desenvolvimento,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+
+dn: cn=Diretor_Inovação,ou=Matriz,dc=UF,dc=estados,dc=lab
+objectClass: posixGroup
+cn: Inovação
+gidNumber: 5000
+
+dn: cn=Diretor_Projetos,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+
+dn: cn=Diretor_RH,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
+
+
+##################### CE1 #####################
+
+
+dn: cn=Gerente_Financeiro,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+dn: cn=Diretor_Financeiro,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+
+dn: cn=Gerente_Desenvolvimento,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+dn: cn=Diretor_Desenvolvimento,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+
+dn: cn=Gerente_Projetos,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+dn: cn=Diretor_Projetos,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+
+dn: cn=Gerente_RH,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
+dn: cn=Diretor_RH,ou=CE1,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
+
+##################### RJ2 #####################
+
+dn: cn=Gerente_Financeiro,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+dn: cn=Diretor_Financeiro,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+
+dn: cn=Gerente_Desenvolvimento,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+dn: cn=Diretor_Desenvolvimento,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+
+dn: cn=Gerente_Projetos,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+dn: cn=Diretor_Projetos,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+
+dn: cn=Gerente_RH,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
+dn: cn=Diretor_RH,ou=RJ2,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
+
+
+##################### GO3 #####################
+
+
+dn: cn=Gerente_Financeiro,ou=GO3,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+dn: cn=Diretor_Financeiro,ou=GO3,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Financeiro
+gidNumber: 5000
+
+dn: cn=Gerente_Desenvolvimento,ou=GO3,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+dn: cn=Diretor_Desenvolvimento,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Desenvolvimento
+gidNumber: 5000
+
+dn: cn=Gerente_Projetos,ou=GO3,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+dn: cn=Diretor_Projetos,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: Projetos
+gidNumber: 5000
+
+dn: cn=Gerente_RH,ou=GO3,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
+dn: cn=Diretor_RH,ou=Matriz,dc=br,dc=dsalj,dc=com
+objectClass: posixGroup
+cn: RH
+gidNumber: 5000
